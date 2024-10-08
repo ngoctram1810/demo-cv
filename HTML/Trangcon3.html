@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="/images/bgr.jpg" type="images/x-icon">
+    <title> Võ Ngọc Trâm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/Trangcon3.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('/images/bgr.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <div class="logo">
+            <img src="/images/logo2.jpg" width="160px" height="78px">
+        </div>
+        <div class="menu">
+            <li><a href="/HTML/Trangchu.html">TRANG CHỦ</a>
+            <li><a href="/HTML/Trangcon2.html">SỰ KIỆN</a></li>
+            <li><a href="/HTML/Trangcon3.html">THÔNG TIN CÁ NHÂN</a></li>
+            <li><a href="/HTML/Trangcon4.html">LỊCH TRÌNH </a></li>
+            <li><a href="/HTML/Trangcon5.html">HỌC VẤN</a></li>
+            <li><a href="/HTML/Trangcon6.html">KINH NGHIỆM</a></li>
+            <li><a href="/HTML/Trangcon8.html">DỰ ÁN SẮP TỚI</a></li>
+            <li><a href="/HTML/Trangcon7.html">LIÊN HỆ</a></li>
+        </div>
+        <div class="others">
+            <ul class="text">
+                <li><input type="text" placeholder="tìm kiếm"><button class="fas fa-search"></button></li>
+                <li>
+                    <a href="" class="fa fa-paw"></a>
+                    <a href="" class="fa fa-user"></a>
+                    <a href="" class="fa fa-shopping-bag"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-------------------------------------personal information----------------------------->
+       <section class="personal">
+        <div class="personal information">
+            <h2>Giới thiệu</h2>
+           <ul>
+            <p>Tôi tên là: Võ Ngọc Trâm</p>
+            <p> Ngày sinh: 18/10/2005</p>
+            <p>Giới tính: Nữ</p>
+            <P>Quê quán: Quảng Ngãi</P>
+            <P>Châm ngôn sống: Đừng thất vọng khi bị từ chối, đừng buồn khi mình thất bại, đây chỉ là bài test của cuộc đời.</P>
+           </ul>
+            <div class="personal-information-picture">
+                <img src="/images/cn2.jpg" alt="">
+            </div>
+        </div>
+        <div id="skills">
+            <h2>Trình độ học vấn</h2>
+            <ul>
+                <p>Trường: Đại học Công Nghệ Hồ Chí Minh</p>
+                <p>Chuyên nghành: Truyền thông đa phương tiện</p>
+                <p>Câu lạc bộ: Thành viên câu lạc bộ sự kiện H-event</p>
+            </ul>
+            <div class="skills-picture">
+                <img src="/images/dai-hoc-cong-nghe-tphcm.jpg" alt="">
+            </div>
+        </div>
+        
+        <div id="experience">
+            <h2>Một chút về bản thân</h2>
+            <ul>
+                <p>Sở thích: Nghe nhạc, coi phim, làm bánh, cập nhập nhiều thông tin truyền thông nổi bật,... </p>
+                <p>Ước mơ: Đạo diễn hình ảnh</p>
+                <p>Điểm mạnh: chụp ảnh, quay phim</p>
+                <p>TÓM TẮT BẢN THÂN</p>
+                <p>Trẻ trung tăng động, rất chịu khó học hỏi những thứ mới mẻ, thân thiện, hoạt bát, hướng ngoại fulltime,
+                1m53 không ngại việc khó, có đam mê chụp ảnh và đi coffee</p>
+            </ul>
+            <div class="experience-picture">
+                <img src="/images/cn1.jpg" alt="">
+            </div>
+        </div>
+       </section>
+  
+    <!-------------------------------------CONTACT----------------------------->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Hãy điền thông tin liên hệ của bạn</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="info-boxes">
+            <div class="info-box">
+                <i class="fas fa-phone"></i>
+                <h2>0901178827</h2>
+                <p>Gọi cho tôi từ 08:30 đến 18:00 Từ thứ 2 đến thứ 7</p>
+            </div>
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <h2>Bangdaodiep549@gmail.com</h2>
+                <p>Hãy gửi thư cho chúng tôi theo địa chỉ trên.</p>
+                <p> Chúng tôi sẽ trả lời thư của bạn trong vòng 24h</p>
+            </div>
+            <div class="info-box">
+                <i class="fas fa-home"></i>
+                <h2>Địa chỉ của chúng tôi</h2>
+                <p>Trường Đại Học Công nghệ Hồ Chí Minh</p>
+            </div>
+        </div>
+    </section>
+    </section>
+    </body>
